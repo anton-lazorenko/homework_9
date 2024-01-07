@@ -1,0 +1,41 @@
+<svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="21" height="18" fill="#E5E5E5"/>
+<g id="Travel Agency Landing Page UI" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="4774" transform="translate(-418 -4133)" fill="white"/>
+<g id="subscribe section">
+<g id="Group 78">
+<path id="Rectangle 164" opacity="0.2" d="M887 -266C887 -277.046 878.046 -286 867 -286H-154C-225.245 -286 -283 -228.245 -283 -157V101C-283 112.046 -274.046 121 -263 121H867C878.046 121 887 112.046 887 101V-266Z" fill="#DFD7F9"/>
+<g id="Mask Group" opacity="0.1">
+<mask id="mask0_0_1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-370" y="-240" width="480" height="361">
+<rect id="Rectangle 154" x="109.5" y="-239.5" width="360" height="479" transform="rotate(90 109.5 -239.5)" fill="url(#paint0_linear_0_1)" stroke="#6246E5"/>
+</mask>
+<g mask="url(#mask0_0_1)">
+<g id="Group 42">
+<path id="Ellipse 20" d="M-120.227 218.902C-197.803 218.902 -260.693 155.925 -260.693 78.2374C-260.693 0.549785 -197.803 -62.4273 -120.227 -62.4273C-42.6513 -62.4272 20.2378 0.549797 20.2378 78.2374C20.2378 155.925 -42.6513 218.902 -120.227 218.902Z" stroke="#6246E5"/>
+<path id="Ellipse 21" d="M-109.448 223.885C-194.351 223.885 -263.18 154.959 -263.18 69.9339C-263.18 -15.0914 -194.351 -84.0169 -109.448 -84.0169C-24.5444 -84.0168 44.2847 -15.0914 44.2847 69.9339C44.2847 154.959 -24.5444 223.885 -109.448 223.885Z" stroke="#6246E5"/>
+<path id="Ellipse 22" d="M-93.6924 227.206C-185.007 227.206 -259.034 153.076 -259.034 61.6302C-259.034 -29.8156 -185.007 -103.946 -93.6924 -103.946C-2.37759 -103.946 71.6489 -29.8155 71.6489 61.6303C71.6489 153.076 -2.3776 227.206 -93.6924 227.206Z" stroke="#6246E5"/>
+<path id="Ellipse 23" d="M-78.3523 230.528C-175.85 230.528 -254.888 151.378 -254.888 53.7415C-254.888 -43.8955 -175.85 -123.045 -78.3523 -123.045C19.145 -123.045 98.1833 -43.8955 98.1833 53.7415C98.1833 151.379 19.145 230.528 -78.3523 230.528Z" stroke="#6246E5"/>
+<path id="Ellipse 24" d="M-60.939 234.68C-168.053 234.68 -254.888 147.723 -254.888 40.4556C-254.888 -66.8121 -168.053 -153.769 -60.939 -153.769C46.1754 -153.769 133.01 -66.8121 133.01 40.4556C133.01 147.723 46.1754 234.68 -60.939 234.68Z" stroke="#6246E5"/>
+</g>
+</g>
+</g>
+</g>
+<g id="Group 76">
+<rect id="Rectangle 23" x="-31" y="-25" width="421" height="68" rx="10" fill="white"/>
+<g id="Group 46">
+<path id="Vector 5" d="M4 6L9.4 10.05C9.75556 10.3167 10.2444 10.3167 10.6 10.05L16 6" stroke="#39425D" stroke-linecap="round"/>
+<rect id="Rectangle 22" x="0.5" y="0.5" width="20" height="17" rx="4.5" stroke="#39425D"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="366.035" y1="-226.533" x2="117.704" y2="244.066" gradientUnits="userSpaceOnUse">
+<stop stop-color="#747DEF"/>
+<stop offset="1" stop-color="#5E3BE1"/>
+</linearGradient>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="4774" fill="white" transform="translate(-418 -4133)"/>
+</clipPath>
+</defs>
+</svg>

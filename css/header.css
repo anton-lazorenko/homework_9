@@ -1,0 +1,14 @@
+header {
+    padding: 40px 200px 0 141px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-wrapper {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.navigation__list {
+}
