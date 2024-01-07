@@ -4,11 +4,150 @@ body {
     background-image: url(/img/Decore.svg);
     background-repeat: no-repeat;
     background-position-x: right;
-    
 }
 
 ul {
     list-style-type: none;
 }
 
+.wrapper-first-section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
+.first-section {
+    display: flex;
+    justify-content: center;
+}
+
+.first-section__left-side {
+    display: flex;
+    flex-direction: column;
+    padding-left: 170px;
+    padding-top: 128px;
+}
+
+.text-above-h1 {
+    width: 410px;
+    color: #DF6951;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+
+}
+
+h1 {
+    width: 545px;
+    min-height: 267px;
+    color: #181E4B;
+    font-family: Volkhov;
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 89px;
+    letter-spacing: -2.4px;
+    margin: 0;
+    padding-top: 28px;
+}
+
+.text-under-h1 {
+    width: 472px;
+    color: #5E6282;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.find-button {
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    border: 0;
+    background: #F1A501;
+    box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.play-demo-button {
+    width: 52px;
+    height: 52px;
+    border: 0;
+    border-radius: 50%;
+    background-color: #df6040;
+    margin-left: 44px;
+    margin-right: 21px;
+}
+
+.play-demo-text {
+    color: #686D77;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.left-side-buttons {
+    max-width: 450px;
+    display: flex;
+    align-items: center;
+    padding-top: 33px;
+}
+
+.hero-img {
+    /* position: relative;
+    right: 129px;
+    top: 13px; */
+    
+}
+
+.left-plane {
+    position: relative;
+    bottom: 700px;
+    left: 4px;
+}
+
+.right-plane {
+    position: relative;
+    bottom: 653px;
+    left: 317px;
+
+}
+
+.wrapper-second-section {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.wrapper-third-section {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.wrapper-fourth-section {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.wrapper-fifth-section {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.wrapper-sixth-section {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.wrapper-seventh-section {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.wrapper-eighth-section {
+    width: 1440px;
+    margin: 0 auto;
+}
