@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-image: url(/img/Decore.svg);
+    background-image: url(../img/Decore.svg);
     background-repeat: no-repeat;
     background-position-x: right;
 }
