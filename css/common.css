@@ -29,6 +29,12 @@ ul {
     padding-top: 128px;
 }
 
+.first-section__left-side-decor {
+    z-index: -5;
+    position: absolute;
+    transform: translateX(245px) translateY(119px);
+}
+
 .text-above-h1 {
     width: 410px;
     color: #DF6951;
