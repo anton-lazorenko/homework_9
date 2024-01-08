@@ -85,6 +85,14 @@ h1 {
     margin-right: 21px;
 }
 
+.play-vector {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 15px;
+    height: 15px;
+    fill: white;
+}
+
 .play-demo-text {
     color: #686D77;
     font-family: Poppins;
@@ -107,20 +115,35 @@ h1 {
     position: relative;
     right: 129px;
     top: 13px;
+    transition: right 1s ease-in-out;
+}
 
+.hero-img:hover {
+    right: -150px;
 }
 
 .left-plane {
     position: relative;
     bottom: 700px;
     left: 4px;
+    transform: rotate(0deg);
+    transition: 3s;
+}
+
+.left-plane:hover {
+    transform: rotate(360deg);
 }
 
 .right-plane {
     position: relative;
     bottom: 653px;
     left: 317px;
+    transform: rotate(0deg);
+    transition: 3s;
+}
 
+.right-plane:hover {
+    transform: rotate(-360deg);
 }
 
 .wrapper-second-section {
@@ -186,6 +209,11 @@ h1 {
     border-radius: 30px 0px 10px 0px;
     background: #DF6951;
     z-index: 5;
+    transition: 0.7s;
+}
+
+.second-sections-items__decor:hover {
+    transform: translateX(383px);
 }
 
 .items-tittle-one {
@@ -569,6 +597,11 @@ h1 {
 .fourth-section__description_icon {
     width: 47px;
     height: 48px;
+    transition: 1s;
+}
+
+.fourth-section__description_icon:hover {
+    transform: scale(2);
 }
 
 .fourth-section__description {
@@ -773,7 +806,8 @@ h1 {
 .progress-block__title {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    class="sixth-section
+ gap: 4px;
     position: absolute;
     transform: translateX(82px) translateY(-55px);
 }
@@ -807,6 +841,11 @@ h1 {
     height: 10px;
     position: absolute;
     transform: translateX(-97px) translateY(27px);
+    transition: 0.3s;
+}
+
+.progress-block__progress progress:hover {
+    transform: scale(1.4);
 }
 
 .progress-block-like {
@@ -814,6 +853,12 @@ h1 {
     height: 18.585px;
     padding-top: 22px;
     padding-left: 82px;
+    transition: 0.3s;
+    transform: skew(0deg);
+}
+
+.progress-block-like:hover {
+    transform: skew(20deg);
 }
 
 /* ________________________________________________________________________________________ */
@@ -855,6 +900,11 @@ h1 {
     letter-spacing: 0.58px;
 }
 
+.fifth-section__tittle h2:hover {
+    font-size: 70px;
+    color: #59B1E6;
+}
+
 .slider {
     padding-top: 82px;
     display: flex;
@@ -880,6 +930,11 @@ h1 {
     z-index: 10;
     position: absolute;
     transform: translateX(87px) translateY(39px);
+    transition: 0.5s;
+}
+
+.fifth-section__right img:hover {
+    transform: scale(3)
 }
 
 .fifth-section__right_comment {
@@ -970,25 +1025,51 @@ h1 {
 
 .sixth-section__logos_item_one {
     filter: grayscale(1);
+    transition: 0.5s;
+
+}
+
+.sixth-section__logos_item_one:hover {
+    transform: translateY(-50px);
 }
 
 .sixth-section__logos_item_two {
     padding-left: 75px;
     filter: grayscale(1);
+    transition: 0.5s;
+}
+
+.sixth-section__logos_item_two:hover {
+    transform: translateY(-50px);
 }
 
 .sixth-section__logos_item_three {
     padding-left: 90px;
+    transition: 0.5s;
+}
+
+.sixth-section__logos_item_three:hover {
+    transform: translateY(-50px);
 }
 
 .sixth-section__logos_item_four {
     padding-left: 87px;
     filter: grayscale(1);
+    transition: 0.5s;
+}
+
+.sixth-section__logos_item_four:hover {
+    transform: translateY(-50px);
 }
 
 .sixth-section__logos_item_five {
     padding-left: 99px;
     filter: grayscale(1);
+    transition: 0.5s;
+}
+
+.sixth-section__logos_item_five:hover {
+    transform: translateY(-50px);
 }
 
 .sixth-section__logos_active-item-background {
@@ -1100,11 +1181,14 @@ h1 {
 .section-seven-icon {
     position: absolute;
     transform: translateX(1119px) translateY(-343px);
+    transition: 1.3s; 
+}
+
+.section-seven-icon:hover { 
+    transform: scale(2);
 }
 
 .section-seven-plus {
     position: absolute;
     transform: translateX(1115px) translateY(-19px);
 }
-
- 

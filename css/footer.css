@@ -6,6 +6,11 @@
 .footer-logo-items {
     display: flex;
     flex-direction: column;
+    transition: 0.3s;
+}
+
+.footer-logo-items:hover {
+    transform: scale(2);
 }
 
 .footer-logo-items img {
@@ -77,8 +82,6 @@
     line-height: 124.5%;
 }
 
-
-
 .list-item-one-heading {
     color: #080809;
     font-family: Poppins;
@@ -128,7 +131,6 @@
     display: flex;
     align-items: center;
     gap: 8px;
-
 }
 
 .instagram-icon {

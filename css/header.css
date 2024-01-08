@@ -18,23 +18,28 @@ ul {
     display: flex;
     color: #212832;
     font-size: 17px;
-    font-weight: 400;  
+    font-weight: 400;
     letter-spacing: -0.4px;
+    transition: color 1s;
 }
 
-.navigation__list-destinations-item {  
+ul:hover {
+    color: aqua;
+}
+
+.navigation__list-destinations-item {
     padding-right: 55px;
 }
 
-.navigation__list-hotels-item {  
-    padding-right:64px;
-}
-
-.navigation__list-flights-item {  
+.navigation__list-hotels-item {
     padding-right: 64px;
 }
 
-.navigation__list-bookings-item {  
+.navigation__list-flights-item {
+    padding-right: 64px;
+}
+
+.navigation__list-bookings-item {
     padding-right: 86px;
 }
 
@@ -56,5 +61,14 @@ ul {
 }
 
 .language {
+    color: #212832;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
     padding-left: 42px;
+}
+
+.lang-vector {
+    padding-left: 10px;
 }
