@@ -1,14 +1,74 @@
-header {
-    padding: 40px 200px 0 141px;
+.header-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
 }
 
-.header-wrapper {
-    width: 1440px;
-    margin: 0 auto;
+header {
+    padding: 40px 138.5px 0 140.92px;
 }
 
-.navigation__list {
+.header-wrapper__logo {
+    padding-right: 182px;
+}
+
+ul {
+    display: flex;
+    color: #212832;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    transition: color 1s;
+}
+
+ul:hover {
+    color: aqua;
+}
+
+.navigation__list-destinations-item {
+    padding-right: 55px;
+}
+
+.navigation__list-hotels-item {
+    padding-right: 64px;
+}
+
+.navigation__list-flights-item {
+    padding-right: 64px;
+}
+
+.navigation__list-bookings-item {
+    padding-right: 86px;
+}
+
+.header-login {
+    color: #212832;
+    font-size: 17px;
+    font-weight: 400;
+    padding-right: 52px;
+}
+
+.button-signup {
+    width: 102px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #212832;
+    background-color: #FFF1DA;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.language {
+    color: #212832;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 42px;
+}
+
+.lang-vector {
+    padding-left: 10px;
 }
